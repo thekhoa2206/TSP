@@ -1,0 +1,103 @@
+#sidebar {
+    min-width: 350px;
+    max-width: 600px;
+    width: 27%;
+    height: 100%;
+    flex: 0 0 auto;
+}
+
+.inline .field {
+    width: 100%;
+}
+
+.cla {
+    text-align: right;
+}
+
+#box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#sidebar-header {
+    flex: 0 1 auto;
+    border-bottom: rgba(150,150,150,.2) solid 1px;
+}
+
+#sidebar-content {
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#truck-icon {
+    font-size: 2.5rem;
+    margin-top: -0.2rem;
+}
+
+#map {
+    flex: 1 1 auto;
+    background: gray;
+}
+
+#hFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+
+}
+.pCenter {
+    text-align: center;
+}
+
+#failedModalActions {
+    text-align: center;
+}
+
+#details-sidebar {
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+    max-width: 1000px;
+    width: 40%;
+    height: 100%;
+}
+
+#details-view-table {
+    color: white;
+}
+
+#details-view > p {
+    color: white;
+}
+
+.pusher {
+    height: 100%;
+}
+
+#innerProgress {
+    width: 80%;
+}
+
+#bar > .label {
+    color: white;
+}
+
+.loading-icon-green {
+    color: greenyellow;
+}
+
+.loading-icon-red {
+    color: red;
+}
+
+
+#loading-ok-button {
+    display: inline-block;
+}
+body {
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+}
